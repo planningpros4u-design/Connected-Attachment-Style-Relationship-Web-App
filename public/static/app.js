@@ -141,11 +141,21 @@ const PAIRINGS = {
     repairPhrase: (n1) => `"${n1}, I want to understand what just happened for you. Can we slow down and try again?"`,
     sharedPractice: (n1, n2) => `Once a week, ${n1} and ${n2} take turns completing this sentence: "Something I've been thinking about us lately is..." No agenda, no fixing -- just listening.`,
     dates: [
-      { emoji: '🍽️', name: 'Host a dinner party together', desc: 'Plan, cook, and host as a team.', why: 'Collaborative projects let you enjoy your natural teamwork and shared confidence.', comfort: 'moderate' },
+      { emoji: '🍽️', name: 'Host a dinner party together', desc: "Plan, cook, and host as a team. Divide tasks and celebrate each other's contributions.", why: 'Collaborative projects let you enjoy your natural teamwork and shared confidence.', comfort: 'moderate' },
       { emoji: '🌱', name: 'Volunteer side by side', desc: 'Choose a cause you both care about and spend a morning giving back.', why: 'Shared purpose deepens connection and shows each other what matters most.', comfort: 'moderate' },
       { emoji: '🗺️', name: 'Create a relationship vision board', desc: "Set aside an evening to dream together -- where you want to travel, grow, and go as a couple.", why: 'Your comfort with vulnerability makes this kind of forward-looking intimacy genuinely fun.', comfort: 'lowkey' },
       { emoji: '🎓', name: 'Learn something new together', desc: 'Take a pottery class, cooking workshop, or language lesson as a pair.', why: 'Being beginners together keeps things fresh and lets you support each other.', comfort: 'adventure' },
       { emoji: '📚', name: 'Bookstore date with a twist', desc: "Each of you picks a book for the other. Compare notes over coffee a week later.", why: 'Choosing for each other is an act of attunement -- and the conversations that follow are rich.', comfort: 'lowkey' },
+      { emoji: '🎭', name: 'Attend a live show', desc: 'A play, comedy show, musical, or local band -- something you experience together in real time.', why: 'Shared emotional responses to art create lasting relational memories.', comfort: 'moderate' },
+      { emoji: '🌄', name: 'Plan a weekend trip', desc: 'Even a one-night stay somewhere new can reset the relationship and remind you why you chose each other.', why: 'New environments spark new conversations and reduce the rut of the familiar.', comfort: 'adventure' },
+      { emoji: '🏃', name: 'Train for something together', desc: 'Sign up for a 5K, yoga challenge, or outdoor adventure course together.', why: 'Working toward a shared physical goal builds teamwork and mutual pride.', comfort: 'adventure' },
+      { emoji: '🖼️', name: 'Take each other on a "perfect day"', desc: 'Each of you plans a full day for the other -- your perfect date, start to finish.', why: 'Nothing communicates "I know you" quite like a day designed entirely around their joy.', comfort: 'moderate' },
+      { emoji: '💌', name: 'Write each other letters', desc: 'Old-fashioned letters, sealed and exchanged. Read them aloud over a quiet evening.', why: 'Putting love into writing creates something tangible and lasting you can return to.', comfort: 'lowkey' },
+      { emoji: '🌌', name: 'Stargazing night', desc: 'Find a dark spot, bring blankets and something warm to drink, and look up together.', why: 'The vast and quiet of the night sky puts everyday worries in perspective.', comfort: 'lowkey' },
+      { emoji: '🎨', name: 'Take an art class together', desc: 'Painting, ceramics, drawing -- choose something tactile and creative.', why: 'Making something with your hands together is grounding, playful, and surprisingly intimate.', comfort: 'moderate' },
+      { emoji: '🧁', name: 'Bake something ambitious', desc: 'Pick a recipe that requires real effort -- croissants, a layered cake, homemade pasta.', why: 'Shared effort plus a delicious result is one of the simplest recipes for joy.', comfort: 'lowkey' },
+      { emoji: '🌊', name: 'Day trip to water', desc: 'A lake, river, coast, or waterfall. Let the sound and movement do some of the work.', why: 'Water has a regulating effect on the nervous system -- great for all styles.', comfort: 'moderate' },
+      { emoji: '🎲', name: 'Game night for two', desc: 'Strategy, trivia, or something cooperative -- games that let you play alongside each other.', why: 'Playfulness and gentle competition are their own form of intimacy.', comfort: 'lowkey' },
     ]
   },
   'secure+anxious': {
@@ -166,6 +176,16 @@ const PAIRINGS = {
       { emoji: '🌾', name: 'Farmers market morning', desc: 'Wander without a plan. Hold hands. Let the day be unhurried.', why: 'Low-stakes togetherness builds the secure foundation the anxious partner is learning to trust.', comfort: 'lowkey' },
       { emoji: '✍️', name: 'Couples journaling night', desc: 'Answer the same prompts separately, then share your answers out loud.', why: "This gives the anxious partner beautiful windows into their partner's inner world.", comfort: 'lowkey' },
       { emoji: '🌅', name: 'Sunrise or sunset ritual', desc: 'Pick a beautiful spot and watch the light change together in comfortable quiet.', why: 'Peaceful presence communicates safety without requiring words.', comfort: 'lowkey' },
+      { emoji: '💌', name: 'Exchange love letters', desc: 'Write letters about what you love about each other and read them aloud.', why: 'Written words give the anxious partner reassurance they can return to any time.', comfort: 'lowkey' },
+      { emoji: '🧘', name: 'Gentle yoga or breathwork together', desc: 'A class or YouTube session at home, done side by side.', why: 'Regulated nervous systems make both partners more available to each other.', comfort: 'moderate' },
+      { emoji: '🎬', name: 'Movie marathon with a theme', desc: "Each of you picks one film for a double-feature. Make snacks and get cozy.", why: 'Choosing a film for each other is a small, sweet act of knowing someone.', comfort: 'lowkey' },
+      { emoji: '🌿', name: 'Plant or tend a garden together', desc: 'Start something that grows over time -- seeds, herbs, a houseplant collection.', why: 'Tending something living together is a beautiful metaphor for the relationship itself.', comfort: 'lowkey' },
+      { emoji: '🎵', name: 'Make each other a playlist', desc: 'Songs that remind you of each other. Play them on a drive or a quiet evening.', why: 'Music is a love language. Sharing it says "I think about you."', comfort: 'lowkey' },
+      { emoji: '🍦', name: 'Wander a new neighborhood', desc: "Pick a part of your city you've never explored and spend an afternoon there.", why: 'New shared experiences become shared memories.', comfort: 'moderate' },
+      { emoji: '📖', name: 'Read the same book together', desc: "Choose a novel or memoir. Read a chapter a week and discuss over tea.", why: 'Talking about fictional characters often unlocks conversations about real feelings.', comfort: 'lowkey' },
+      { emoji: '🌊', name: 'Day trip to somewhere beautiful', desc: 'A waterfall, scenic overlook, botanical garden, or coast.', why: "Beauty creates emotional openness. It's hard to feel anxious when you're genuinely awestruck.", comfort: 'moderate' },
+      { emoji: '🎨', name: 'Take a creative class together', desc: 'Painting, ceramics, flower arranging -- something tactile and playful.', why: 'Making something together while laughing at your attempts builds genuine warmth.', comfort: 'moderate' },
+      { emoji: '🕯️', name: 'At-home spa night', desc: 'Candles, music, face masks, whatever feels indulgent to you both.', why: 'Physical comfort and care in a relaxed setting deepens the felt sense of safety.', comfort: 'lowkey' },
     ]
   },
   'secure+avoidant': {
@@ -186,6 +206,16 @@ const PAIRINGS = {
       { emoji: '🍳', name: 'Cook a new recipe together', desc: "Pick something neither of you has made before and work through it as a team.", why: 'Shared tasks give the avoidant partner a comfortable focus while building togetherness.', comfort: 'lowkey' },
       { emoji: '🌌', name: 'Stargazing night', desc: 'Bring a blanket, put the phones away, and look up together.', why: 'Wide open space and quiet presence can feel expansive rather than claustrophobic.', comfort: 'lowkey' },
       { emoji: '🎨', name: 'Art gallery or museum visit', desc: 'Wander separately and come together to share what caught your attention.', why: 'Parallel exploration followed by sharing bridges independence and intimacy beautifully.', comfort: 'moderate' },
+      { emoji: '🎵', name: 'Attend a live music event', desc: 'A concert, jazz club, or local band night -- something to experience together without needing to talk throughout.', why: 'Shared experiences that require no emotional performance are a gateway to closeness.', comfort: 'moderate' },
+      { emoji: '🏕️', name: 'Camping or glamping trip', desc: 'A night or two in nature, away from the usual routine.', why: 'Shared adventure with natural pacing builds connection organically over time.', comfort: 'adventure' },
+      { emoji: '🗺️', name: 'Road trip without a plan', desc: "Pick a direction and drive. Stop when something looks interesting.", why: 'The open-ended nature removes pressure; forward motion and freedom suit the avoidant partner.', comfort: 'adventure' },
+      { emoji: '📚', name: 'Parallel reading date', desc: 'Same cozy space, each reading your own book, sharing passages occasionally.', why: 'Being together without performing closeness is genuinely lovely for this pairing.', comfort: 'lowkey' },
+      { emoji: '🏊', name: 'Swimming or water activity', desc: 'A pool, lake, or beach. Movement in water is naturally regulating.', why: 'Physical activity reduces anxiety for the secure partner and pressure for the avoidant.', comfort: 'moderate' },
+      { emoji: '🎲', name: 'Strategy or board game night', desc: 'Chess, Scrabble, Catan -- something that engages the mind.', why: 'Games give both partners a comfortable shared focus.', comfort: 'lowkey' },
+      { emoji: '🌄', name: 'Sunrise hike or nature walk', desc: 'Early morning, quiet, somewhere beautiful and open.', why: 'Starting the day together with nature creates connection without emotional demand.', comfort: 'moderate' },
+      { emoji: '🍜', name: 'Explore a new cuisine', desc: 'Find a restaurant serving food neither of you has tried and go with open minds.', why: 'Novel shared experiences create new positive memories together.', comfort: 'moderate' },
+      { emoji: '🏋️', name: 'Workout or movement class together', desc: 'A gym session, dance class, or outdoor fitness activity.', why: 'Physical activity together builds endorphins and a sense of teamwork.', comfort: 'adventure' },
+      { emoji: '🌃', name: 'City night walk', desc: 'Walk your city at night -- find the lit-up bridges, quiet neighborhoods, late-night spots.', why: 'Movement and exploration feel natural for the avoidant partner; the beauty is naturally romantic.', comfort: 'moderate' },
     ]
   },
   'secure+disorganized': {
@@ -206,6 +236,16 @@ const PAIRINGS = {
       { emoji: '🖼️', name: 'Visit a quiet gallery', desc: 'Choose a small, uncrowded space and wander at your own pace.', why: 'Low stimulation and shared curiosity create safe ground for gentle connection.', comfort: 'lowkey' },
       { emoji: '🎶', name: 'Share your music', desc: 'Take turns playing songs that mean something to you and saying a little about why.', why: "Music is a non-threatening doorway into inner worlds, especially when words feel hard.", comfort: 'lowkey' },
       { emoji: '🧩', name: 'Puzzle or board game night', desc: 'A low-stakes activity that keeps hands busy and pressure off.', why: 'Side-by-side focus reduces the intensity of sustained emotional pressure while building shared enjoyment.', comfort: 'lowkey' },
+      { emoji: '📖', name: 'Read to each other', desc: "Take turns reading a chapter or a poem aloud. No agenda, just voices and words.", why: 'Being read to is deeply soothing and builds intimacy at a gentle pace.', comfort: 'lowkey' },
+      { emoji: '🌅', name: 'Watch the sunrise or sunset', desc: 'Choose a beautiful spot and be there for the light.', why: 'Natural beauty creates awe, which opens the nervous system to connection.', comfort: 'lowkey' },
+      { emoji: '🍵', name: 'Tea ceremony at home', desc: 'Brew something good, sit face to face, and just be present.', why: 'Ritual and slowness create safety. The act of caring for each other through small things matters.', comfort: 'lowkey' },
+      { emoji: '🎨', name: 'Creative night -- no pressure', desc: 'Draw, paint, collage, write. Put on music and make whatever wants to come out.', why: 'Expressive activity is processing. Doing it together builds a quiet, powerful intimacy.', comfort: 'lowkey' },
+      { emoji: '🌾', name: 'Farmers market morning', desc: 'Wander at your own pace. No agenda. Let the day unfold.', why: 'Gentle sensory environments with no emotional demands are restorative for the disorganized nervous system.', comfort: 'lowkey' },
+      { emoji: '💌', name: 'Write each other honest letters', desc: 'Unsent or sent -- write what you want the other person to know about how you love.', why: 'Writing creates distance from the raw emotion, making it easier to reach across.', comfort: 'lowkey' },
+      { emoji: '🌊', name: 'Sit near water together', desc: 'A beach, a lake, a river. Let the sound do the work.', why: 'Moving water is one of the most reliable nervous-system regulators in nature.', comfort: 'lowkey' },
+      { emoji: '🧁', name: 'Bake something together', desc: 'Simple bread, cookies, a cake -- something that uses your hands and has a satisfying result.', why: "Tactile activity grounds the body. And you get to eat what you made together, which is its own kind of joy.", comfort: 'lowkey' },
+      { emoji: '🐾', name: "Visit animals", desc: "A petting zoo, animal shelter visit, dog park -- wherever there are creatures who offer uncomplicated warmth.", why: "Animals offer non-judgmental presence. For the disorganized partner, this environment often feels genuinely safe.", comfort: 'lowkey' },
+      { emoji: '🎭', name: 'Watch something moving together', desc: "A film or documentary that says something true about being human. Let yourself feel it.", why: 'Processing big emotions through art together builds emotional vocabulary and shared empathy.', comfort: 'lowkey' },
     ]
   },
   'anxious+anxious': {
@@ -226,6 +266,16 @@ const PAIRINGS = {
       { emoji: '🍦', name: 'Explore a new neighborhood', desc: "Pick a part of your city you've never wandered and spend an afternoon there.", why: 'Novel shared experiences create positive emotional memories that buffer anxious patterns.', comfort: 'moderate' },
       { emoji: '💌', name: 'Write each other letters', desc: 'Write a letter about what you love about your partner. Exchange and read aloud.', why: 'Both partners feel deeply seen, and reading aloud anchors that love in the body.', comfort: 'lowkey' },
       { emoji: '🌊', name: 'Spend time near water', desc: 'A beach, a river, a lake -- let the sound and movement do some of the regulating.', why: 'Nature has a genuinely calming effect on sensitive nervous systems.', comfort: 'moderate' },
+      { emoji: '🎨', name: 'Take an art or craft class', desc: 'Painting, ceramics, flower arranging -- something with your hands.', why: 'Creative work grounds anxious energy and gives you something to talk about besides the relationship.', comfort: 'moderate' },
+      { emoji: '🎵', name: 'Attend live music', desc: 'A concert, open mic, or jazz night. Let the music hold the emotion for a while.', why: 'Shared emotional experience through music is deeply bonding for two deep feelers.', comfort: 'moderate' },
+      { emoji: '🌄', name: 'Sunrise hike or walk', desc: 'Early morning, beautiful light, somewhere with a view.', why: 'Starting the day together with intention creates a sense of ritual and safety.', comfort: 'moderate' },
+      { emoji: '🕯️', name: 'At-home spa evening', desc: 'Candles, music, face masks, warm water. Tend to each other gently.', why: 'Physical care and comfort in a soft environment builds felt safety in the body.', comfort: 'lowkey' },
+      { emoji: '🍳', name: 'Cook a meaningful meal together', desc: "A family recipe, a dish from your culture, something that means something.", why: 'Food made with care is love. For two deep feelers, this lands deeply.', comfort: 'lowkey' },
+      { emoji: '📸', name: 'Take photos together', desc: 'Go somewhere beautiful and document it. Not for social media -- just for you.', why: 'Creating shared archives builds a sense of "us" that the anxious partner finds deeply reassuring.', comfort: 'moderate' },
+      { emoji: '🎭', name: 'See something emotionally moving', desc: 'A powerful film, a play, a documentary. Let yourselves feel it together.', why: 'Two deep feelers processing emotion side by side creates profound connection.', comfort: 'moderate' },
+      { emoji: '✍️', name: 'Journal together with prompts', desc: "Use prompts from this app or your own. Write separately, then share.", why: 'Structured sharing reduces the fear of saying the wrong thing.', comfort: 'lowkey' },
+      { emoji: '🌿', name: 'Tend something living together', desc: 'Plant a garden, repot plants, grow herbs on a windowsill.', why: 'Caring for something that grows is a gentle metaphor for caring for each other.', comfort: 'lowkey' },
+      { emoji: '🎲', name: 'Play a cooperative game', desc: 'A game where you work together against the board, not against each other.', why: 'Teamwork without competition reinforces the "us against the problem" dynamic that helps anxious partners relax.', comfort: 'lowkey' },
     ]
   },
   'anxious+avoidant': {
@@ -246,6 +296,16 @@ const PAIRINGS = {
       { emoji: '🎥', name: 'Movie night -- avoidant partner chooses', desc: 'Let the avoidant partner pick the movie, the setting, the snacks.', why: 'Giving the avoidant partner control and autonomy reduces the reflex to withdraw.', comfort: 'lowkey' },
       { emoji: '✏️', name: 'Creative night at home', desc: 'Draw, paint, write, build -- something creative, side by side, no rules.', why: 'Creative expression opens emotional doors that direct conversation sometimes closes.', comfort: 'lowkey' },
       { emoji: '🌠', name: 'Stargazing with a blanket', desc: 'Find a dark spot, bring something warm to drink, and look up.', why: 'Vast open space and quiet presence can feel expansive rather than overwhelming.', comfort: 'lowkey' },
+      { emoji: '🏕️', name: 'Camping or a night away', desc: 'One night somewhere in nature. Simple food, no agenda, real conversation by firelight.', why: 'Nature removes digital distractions and creates spaciousness -- good for both styles.', comfort: 'adventure' },
+      { emoji: '🎵', name: 'Make playlists for each other', desc: "Songs that remind you of each other. Exchange and listen separately, then discuss.", why: 'Music is a safe bridge. The anxious partner gets a window in; the avoidant partner shares without pressure.', comfort: 'lowkey' },
+      { emoji: '🍜', name: 'Explore a new restaurant', desc: 'Somewhere neither of you has been. Make it an adventure.', why: 'New environments with something to observe and talk about take the pressure off the relationship itself.', comfort: 'moderate' },
+      { emoji: '🌄', name: 'Road trip with a destination the avoidant partner chooses', desc: 'Let the avoidant partner pick where you go and when.', why: 'Autonomy and control are the conditions under which the avoidant partner relaxes.', comfort: 'adventure' },
+      { emoji: '📖', name: 'Read the same book', desc: 'Same book, read independently, discussed over coffee.', why: 'Processing feelings through characters creates safer distance for the avoidant partner.', comfort: 'lowkey' },
+      { emoji: '🏊', name: 'Go swimming or to a spa', desc: "Water-based activity or a spa day together.", why: 'Physical relaxation reduces avoidant defenses and anxious hypervigilance simultaneously.', comfort: 'moderate' },
+      { emoji: '🎲', name: 'Play a competitive game', desc: 'Something playful and low-stakes where you compete or cooperate.', why: 'Playfulness is an attachment behavior that both styles can access without emotional demand.', comfort: 'lowkey' },
+      { emoji: '🐾', name: 'Volunteer with animals', desc: 'Spend a morning at an animal shelter or rescue.', why: 'Animals offer unconditional warmth. Working side by side in service is connecting for this pairing.', comfort: 'moderate' },
+      { emoji: '🎨', name: 'Take a pottery or art class', desc: "Something hands-on and tactile -- great for getting out of your heads.", why: "For the avoidant partner, hands-on tasks create safety. For the anxious partner, it's joyful shared time.", comfort: 'moderate' },
+      { emoji: '🌿', name: 'Garden or outdoor project together', desc: 'Plant something, build a raised bed, maintain a shared outdoor space.', why: 'Working toward a tangible shared outcome builds security for both styles.', comfort: 'lowkey' },
     ]
   },
   'anxious+disorganized': {
@@ -266,6 +326,16 @@ const PAIRINGS = {
       { emoji: '🌿', name: 'Walk in nature', desc: 'A quiet, unhurried walk somewhere green and open.', why: 'Natural environments regulate both anxious and disorganized nervous systems gently.', comfort: 'lowkey' },
       { emoji: '🎨', name: 'Side-by-side art night', desc: 'Put on music, get out whatever creative materials you have, and make something.', why: 'No performance pressure. Just being together in something expressive.', comfort: 'lowkey' },
       { emoji: '📝', name: 'Write each other a letter', desc: 'Each of you writes what you wish the other knew about how you love.', why: 'Giving words space and time reduces the intensity that face-to-face conversations can carry.', comfort: 'lowkey' },
+      { emoji: '🧩', name: 'Work on a puzzle together', desc: "A beautiful, complex puzzle over several evenings.", why: 'Shared focus on an object removes the pressure of sustained emotional exposure.', comfort: 'lowkey' },
+      { emoji: '🌅', name: 'Watch the sun rise or set', desc: 'Somewhere beautiful. Just be there together.', why: 'Awe is a regulating emotion. Beauty opens the nervous system gently.', comfort: 'lowkey' },
+      { emoji: '🎬', name: 'Watch a deeply human film', desc: "Something emotionally rich -- a film that says something true about people.", why: 'Processing big feelings through characters is safer than direct emotional conversation for both styles.', comfort: 'lowkey' },
+      { emoji: '🍵', name: 'Tea and unhurried conversation', desc: "Make something warm and just... talk. No agenda.", why: 'Low stimulation, no pressure, a familiar ritual. This is where trust is built between these two styles.', comfort: 'lowkey' },
+      { emoji: '🌊', name: 'Spend time near water', desc: "A beach, river, or lake. Let the sound do some of the regulating.", why: 'Both the anxious and disorganized nervous system responds well to moving water.', comfort: 'lowkey' },
+      { emoji: '🐾', name: "Visit animals", desc: "An animal shelter, petting zoo, dog park, or farm.", why: 'Animals offer non-judgmental warmth that neither style has to earn.', comfort: 'lowkey' },
+      { emoji: '🧘', name: 'Breathwork or gentle movement', desc: 'A guided breathing exercise or gentle yoga video at home.', why: 'Both styles benefit from nervous-system regulation tools. Learning them together is powerful.', comfort: 'lowkey' },
+      { emoji: '📖', name: 'Read to each other', desc: "Take turns reading aloud from a book you both love.", why: 'Being read to is soothing. Sharing something meaningful communicates care without demand.', comfort: 'lowkey' },
+      { emoji: '🎵', name: 'Attend a live performance', desc: 'A small venue, local band, open mic, or acoustic show.', why: 'Live music creates a shared emotional experience in a contained, public space -- which can feel safer.', comfort: 'moderate' },
+      { emoji: '🌿', name: 'Plant or tend something living', desc: 'Seeds, herbs, a small garden, houseplants. Something that grows over time.', why: 'Nurturing something together is a metaphor for what you are doing for each other.', comfort: 'lowkey' },
     ]
   },
   'avoidant+avoidant': {
@@ -286,6 +356,16 @@ const PAIRINGS = {
       { emoji: '🏛️', name: 'Museum or gallery visit', desc: 'Explore separately and meet up to share what caught your eye.', why: 'Independent exploration followed by sharing models healthy interdependence beautifully.', comfort: 'moderate' },
       { emoji: '👨‍🍳', name: 'Friendly cooking competition', desc: "Each of you makes a dish from the same ingredient. Judge each other's results.", why: 'Playfulness and gentle competition are safe emotional territory that can build connection.', comfort: 'lowkey' },
       { emoji: '🌱', name: 'Work on a shared project', desc: 'Start a garden, build something, learn a skill -- something with long-term, tangible results.', why: 'Building something together creates connection through shared investment.', comfort: 'moderate' },
+      { emoji: '🧩', name: 'Multi-session puzzle or model', desc: 'A complex puzzle or model you return to over several evenings.', why: 'Low-pressure, parallel work with a shared goal and a satisfying endpoint.', comfort: 'lowkey' },
+      { emoji: '🎵', name: 'Attend a music event separately, debrief together', desc: 'Go to a show you both like, sit together, talk about it over dinner after.', why: 'Separate experience, shared debrief -- honors independence while building connection.', comfort: 'moderate' },
+      { emoji: '🏕️', name: 'Camping or outdoor overnight', desc: "A night in nature with minimal devices and maximum sky.", why: 'Both avoidants tend to find peace outdoors. Shared practical tasks create natural teamwork.', comfort: 'adventure' },
+      { emoji: '🎲', name: 'Strategy or puzzle games', desc: 'Chess, Scrabble, Catan, a crossword -- something that engages independent thought together.', why: 'Games give both people a comfortable focus and remove the demand for emotional performance.', comfort: 'lowkey' },
+      { emoji: '🌄', name: 'Sunrise hike or early walk', desc: 'Something active, early, and beautiful.', why: 'Avoidants often come alive in nature with movement. An early start means no crowds.', comfort: 'moderate' },
+      { emoji: '🖼️', name: 'Design something for your space', desc: "Rearrange a room, choose art together, build furniture -- make your space more yours.", why: 'Building a shared environment is a tangible act of commitment that avoidants can get behind.', comfort: 'lowkey' },
+      { emoji: '🍜', name: 'Explore a new cuisine', desc: 'A restaurant serving food neither of you has tried.', why: 'New environments with something to focus on together create connection without pressure.', comfort: 'moderate' },
+      { emoji: '🎬', name: 'Watch a documentary together', desc: "Something fascinating -- nature, history, science, culture. Let your curiosity lead.", why: 'Shared intellectual interest is a love language for many avoidants.', comfort: 'lowkey' },
+      { emoji: '📖', name: 'Read the same book, discuss it', desc: 'Choose a novel or non-fiction and compare notes over coffee.', why: 'Structured conversation removes the discomfort of open-ended emotional sharing.', comfort: 'lowkey' },
+      { emoji: '🌃', name: 'Late-night city walk', desc: 'Walk together after dark. Find the city at its quietest.', why: 'The openness and quiet of a city at night suits independent spirits who breathe better with space.', comfort: 'moderate' },
     ]
   },
   'avoidant+disorganized': {
@@ -306,6 +386,16 @@ const PAIRINGS = {
       { emoji: '🎵', name: 'Share your music and stories', desc: 'Take turns playing a song that matters and sharing a memory attached to it.', why: 'Music creates an emotionally safe bridge between two internal worlds.', comfort: 'lowkey' },
       { emoji: '🍵', name: 'Tea and quiet conversation', desc: 'A slow cup of tea and an unhurried talk about something neither of you usually discusses.', why: 'Low stimulation environments allow both styles to lower their guard naturally.', comfort: 'lowkey' },
       { emoji: '🖼️', name: 'Visit a small art space', desc: 'Choose a quiet, smaller gallery rather than a busy museum.', why: 'Beauty and quiet create a shared experience without requiring emotional performance.', comfort: 'lowkey' },
+      { emoji: '🕯️', name: 'Cook dinner together slowly', desc: "An involved recipe that takes time. Put on music and take your time.", why: 'Side-by-side practical activity with a delicious result is a perfect low-pressure date.', comfort: 'lowkey' },
+      { emoji: '🌄', name: 'Watch the sunrise or sunset from somewhere beautiful', desc: "Get up early or stay out late for the light.", why: 'Natural beauty requires nothing of you. Just being there together is enough.', comfort: 'lowkey' },
+      { emoji: '🎬', name: "Watch a film from each other's culture or childhood", desc: "Show each other a movie that shaped you.", why: 'Sharing formative experiences is a form of trust. For both these styles, this is powerful.', comfort: 'lowkey' },
+      { emoji: '📖', name: 'Read to each other', desc: "Take turns reading something aloud -- a chapter, a poem, an essay.", why: 'Being read to is one of the most soothing forms of intimacy. It requires no performance.', comfort: 'lowkey' },
+      { emoji: '🌊', name: 'Sit near water', desc: "A beach, river, or lake. Bring something warm to drink. Stay a while.", why: 'Moving water is one of the most reliable nervous-system regulators in existence.', comfort: 'lowkey' },
+      { emoji: '🧘', name: 'Learn a breathing practice together', desc: 'A guided breathwork or meditation session done side by side.', why: 'Regulated nervous systems make connection possible. This is foundational for both styles.', comfort: 'lowkey' },
+      { emoji: '🎨', name: 'Create something with your hands', desc: "Draw, paint, build, garden -- any tactile creative work.", why: 'Grounding in the body through making soothes both styles and creates shared pride.', comfort: 'lowkey' },
+      { emoji: '🏕️', name: 'A night away in nature', desc: "Camping, glamping, or a cabin. Simple. No agenda.", why: "Away from the usual environment, both partners often find they feel more available to each other.", comfort: 'adventure' },
+      { emoji: '🐾', name: 'Spend time with animals', desc: "Animal shelter, farm, petting zoo, dog park.", why: 'Animals offer uncomplicated warmth that neither partner has to earn.', comfort: 'lowkey' },
+      { emoji: '💌', name: 'Write each other letters', desc: "Old-fashioned letters. Sealed and exchanged. Read privately or aloud -- your choice.", why: 'Written words give both styles the time and distance to say what live conversation makes hard.', comfort: 'lowkey' },
     ]
   },
   'disorganized+disorganized': {
@@ -326,6 +416,16 @@ const PAIRINGS = {
       { emoji: '🎭', name: 'Watch something deeply human', desc: 'A film or documentary about resilience, healing, or the complexity of being human.', why: 'Shared emotional resonance with characters is often safer than direct emotional conversation.', comfort: 'lowkey' },
       { emoji: '📖', name: 'Read the same book', desc: "Choose a novel or memoir you'll both read, then talk about it chapter by chapter.", why: 'Processing big feelings through a story creates distance that makes them approachable.', comfort: 'lowkey' },
       { emoji: '🎨', name: 'Make something with your hands', desc: 'Draw, build, sculpt, garden -- any tactile creative activity.', why: 'Grounding in the body through making soothes the nervous system and creates shared pride.', comfort: 'lowkey' },
+      { emoji: '💌', name: 'Exchange letters', desc: "Write what you wish the other person knew about how you love. Exchange and read privately or aloud.", why: 'Written words allow both partners to say what live conversation makes overwhelming.', comfort: 'lowkey' },
+      { emoji: '🌊', name: 'Sit near water together', desc: "A beach, river, lake. Stay for a while. Let the sound settle you.", why: 'Moving water is one of the most reliable nervous-system regulators. Both partners benefit.', comfort: 'lowkey' },
+      { emoji: '🎵', name: 'Share the music that made you', desc: "Songs from different chapters of your life. The ones that held you.", why: 'Music is memory and feeling. Sharing your formative soundtrack is a profound act of trust.', comfort: 'lowkey' },
+      { emoji: '🧩', name: 'A long puzzle or project', desc: "Something you return to over several evenings together.", why: 'Low-pressure shared time, without demand for emotional performance, builds safety brick by brick.', comfort: 'lowkey' },
+      { emoji: '🌅', name: 'Watch the sunrise', desc: "Get up early enough to watch it together from somewhere beautiful.", why: 'Choosing to witness something beautiful together is an act of presence. It says: I want to be awake, with you.', comfort: 'lowkey' },
+      { emoji: '🍵', name: 'Morning ritual together', desc: "Coffee, tea, no phones, no plan. Just the morning and each other.", why: 'Predictable, soft rituals build the felt sense of safety that both styles need over time.', comfort: 'lowkey' },
+      { emoji: '🧘', name: 'Breathwork or body scan together', desc: 'A guided session from an app or YouTube. Do it side by side.', why: 'Nervous-system regulation done together builds co-regulation skills that help in difficult moments.', comfort: 'lowkey' },
+      { emoji: '🐾', name: "Visit animals", desc: "Animal shelter, farm stay, dog park, petting zoo.", why: 'Animals offer uncomplicated, unconditional warmth. For both these styles, that is genuinely healing.', comfort: 'lowkey' },
+      { emoji: '🌿', name: 'Plant something together', desc: 'Seeds, herbs, a small garden. Something that will grow over time.', why: 'Planting is an act of hope. Tending something together is a metaphor for what you are doing for each other.', comfort: 'lowkey' },
+      { emoji: '🎶', name: 'Attend a small live performance', desc: 'A local band, acoustic show, or open mic. Somewhere intimate and unhurried.', why: 'Live music in a small setting creates shared emotional resonance without pressure.', comfort: 'moderate' },
     ]
   }
 }
@@ -461,15 +561,15 @@ function n2() { return STATE.partner2.name || 'Your partner' }
 // ---- Navigation ----
 
 const NAV_ITEMS = [
-  { id: 'welcome',    label: 'Welcome' },
-  { id: 'setup',      label: 'Setup' },
-  { id: 'quiz',       label: 'Quiz' },
-  { id: 'results',    label: 'Results' },
-  { id: 'connection', label: 'Connection' },
-  { id: 'dates',      label: 'Date Ideas' },
-  { id: 'safety',     label: 'Safety Guide' },
-  { id: 'journal',    label: 'Journal' },
-  { id: 'dashboard',  label: 'Dashboard' },
+  { id: 'welcome',    label: 'Welcome',       icon: '🏠' },
+  { id: 'setup',      label: 'Setup',         icon: '👤' },
+  { id: 'quiz',       label: 'Quiz',          icon: '📋' },
+  { id: 'results',    label: 'Results',       icon: '🎨' },
+  { id: 'connection', label: 'Connection',    icon: '🤝' },
+  { id: 'dates',      label: 'Date Ideas',    icon: '💑' },
+  { id: 'safety',     label: 'Safety Guide',  icon: '🛡️' },
+  { id: 'journal',    label: 'Journal',       icon: '📓' },
+  { id: 'dashboard',  label: 'Dashboard',     icon: '📈' },
 ]
 
 function navigate(section) {
@@ -490,28 +590,74 @@ function render() {
 function buildNav() {
   const p1Initial = (n1()).charAt(0).toUpperCase()
   const p2Initial = (n2()).charAt(0).toUpperCase()
-  const userInfo = STATE.partner1.name
-    ? `<div class="app-nav__user">
-        <span class="avatar-dot" style="background:${STATE.partner1.color}">${p1Initial}</span>
-        ${STATE.usePartner2 && STATE.partner2.name ? `<span class="avatar-dot" style="background:${STATE.partner2.color}">${p2Initial}</span>` : ''}
-       </div>`
-    : ''
+  const hasName = !!STATE.partner1.name
+
+  // Avatar menu (shown when user has a name)
+  const avatarMenu = hasName ? `
+    <div class="avatar-menu-wrapper" id="avatarMenuWrapper">
+      <button class="avatar-menu-btn" onclick="toggleAvatarMenu()" aria-label="Open navigation menu">
+        <span class="avatar-dot" style="background:${STATE.partner1.color};width:34px;height:34px;font-size:0.85rem;cursor:pointer;">${p1Initial}</span>
+        ${STATE.usePartner2 && STATE.partner2.name ? `<span class="avatar-dot" style="background:${STATE.partner2.color};width:34px;height:34px;font-size:0.85rem;cursor:pointer;margin-left:-8px;">${p2Initial}</span>` : ''}
+        <span style="font-size:0.7rem;color:var(--charcoal-light);margin-left:4px;">&#9660;</span>
+      </button>
+      <div class="avatar-dropdown" id="avatarDropdown" style="display:none;">
+        <div class="avatar-dropdown__header">
+          <span class="avatar-dot" style="background:${STATE.partner1.color};width:38px;height:38px;font-size:0.95rem;">${p1Initial}</span>
+          <div>
+            <div style="font-weight:600;font-size:0.9rem;">${n1()}</div>
+            ${STATE.partner1.style ? `<div style="font-size:0.75rem;color:var(--charcoal-light);">${STYLES[STATE.partner1.style].descriptor}</div>` : '<div style="font-size:0.75rem;color:var(--charcoal-light);">Quiz not taken yet</div>'}
+          </div>
+        </div>
+        <div class="avatar-dropdown__divider"></div>
+        ${NAV_ITEMS.map(item => `
+          <a href="#" class="avatar-dropdown__item ${STATE.currentSection === item.id ? 'active' : ''}" onclick="navigate('${item.id}');closeAvatarMenu();return false;">
+            <span class="avatar-dropdown__icon">${item.icon}</span>
+            ${item.label}
+          </a>
+        `).join('')}
+        <div class="avatar-dropdown__divider"></div>
+        <a href="#" class="avatar-dropdown__item" onclick="navigate('setup');closeAvatarMenu();return false;">
+          <span class="avatar-dropdown__icon">⚙️</span> Edit Names &amp; Settings
+        </a>
+        <a href="#" class="avatar-dropdown__item" onclick="navigate('welcome');closeAvatarMenu();return false;">
+          <span class="avatar-dropdown__icon">🏠</span> Back to Beginning
+        </a>
+      </div>
+    </div>
+  ` : `<button class="btn btn-primary btn-sm" onclick="navigate('setup')" style="font-size:0.8rem;padding:8px 18px;">Get Started</button>`
 
   return `
     <nav class="app-nav">
       <div class="app-nav__inner">
-        <span class="app-nav__logo">Connected</span>
+        <a href="#" onclick="navigate('welcome');return false;" class="app-nav__logo">Connected</a>
         <ul class="app-nav__links">
           ${NAV_ITEMS.map(item => `
             <li><a href="#" onclick="navigate('${item.id}');return false;"
                class="${STATE.currentSection === item.id ? 'active' : ''}">${item.label}</a></li>
           `).join('')}
         </ul>
-        ${userInfo}
+        ${avatarMenu}
       </div>
     </nav>
   `
 }
+
+function toggleAvatarMenu() {
+  const d = document.getElementById('avatarDropdown')
+  if (!d) return
+  d.style.display = d.style.display === 'none' ? 'block' : 'none'
+}
+
+function closeAvatarMenu() {
+  const d = document.getElementById('avatarDropdown')
+  if (d) d.style.display = 'none'
+}
+
+// Close menu when clicking outside
+document.addEventListener('click', (e) => {
+  const w = document.getElementById('avatarMenuWrapper')
+  if (w && !w.contains(e.target)) closeAvatarMenu()
+})
 
 function buildSection(id) {
   switch (id) {
@@ -531,6 +677,7 @@ function buildSection(id) {
 // ---- SECTION 0: WELCOME ----
 
 function buildWelcome() {
+  const hasProgress = !!STATE.partner1.style
   return `
   <div class="section-page fade-in">
     <div class="app-container">
@@ -545,7 +692,42 @@ function buildWelcome() {
         <p style="font-size:0.9rem;color:var(--charcoal-light);max-width:500px;margin:0 auto 36px;font-style:italic;">
           Attachment styles are not labels -- they are starting points. Every style can grow toward security with awareness and love.
         </p>
-        <button class="btn btn-primary btn-lg" onclick="navigate('setup')">Begin Your Journey</button>
+        <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;">
+          <button class="btn btn-primary btn-lg" onclick="navigate('setup')">${hasProgress ? 'Continue Your Journey' : 'Begin Your Journey'}</button>
+          ${hasProgress ? `<button class="btn btn-secondary" onclick="navigate('dashboard')">Go to Dashboard</button>` : ''}
+        </div>
+        ${hasProgress ? `<p style="margin-top:14px;font-size:0.82rem;color:var(--charcoal-light);">You have progress saved. Pick up right where you left off.</p>` : `<p style="margin-top:14px;font-size:0.82rem;color:var(--charcoal-light);">Takes about 10 minutes. You can pause and return any time.</p>`}
+      </div>
+
+      <div class="section-divider"><span>Why this matters</span></div>
+
+      <div class="card" style="margin-bottom:24px;">
+        <h3 style="margin-bottom:16px;">Why Attachment Style Is Everything in Love</h3>
+        <p>Decades of research in psychology have shown that the patterns we develop in childhood -- how we learned to seek comfort, handle rejection, and trust the people closest to us -- don't disappear when we grow up. They travel with us into every relationship we form as adults, often without us even realizing it.</p>
+        <p>Your attachment style is essentially your nervous system's blueprint for closeness. It shapes how you respond when your partner is distant, how you behave during conflict, whether you lean in or pull away when things get hard -- and whether love feels like a safe harbor or a constant source of anxiety.</p>
+        <p>Here's the remarkable thing: <strong>most relationship pain is not about compatibility.</strong> It's about two people with different blueprints for love, each doing exactly what they learned to do, neither one understanding why the other keeps responding the way they do.</p>
+        <div class="callout callout--sage" style="margin:20px 0;">
+          <p><strong>When you understand your attachment style, everything shifts.</strong> You stop taking your partner's withdrawal personally. They stop feeling controlled by your need for reassurance. The cycle that used to feel like a character flaw becomes something you can actually name, talk about, and change together.</p>
+        </div>
+        <p>This guide will help you do exactly that. You'll discover your style, understand your partner's, and leave with real, specific tools for how to love each other better -- starting today.</p>
+      </div>
+
+      <div class="card-grid" style="margin-bottom:32px;">
+        <div class="card card--sage">
+          <div style="font-size:1.6rem;margin-bottom:10px;">🔄</div>
+          <h4>Break the Cycle</h4>
+          <p style="font-size:0.88rem;color:var(--charcoal-light);">Patterns repeat until they're understood. This guide helps you see your patterns clearly -- with compassion, not criticism.</p>
+        </div>
+        <div class="card card--rose">
+          <div style="font-size:1.6rem;margin-bottom:10px;">🗣️</div>
+          <h4>Speak the Same Language</h4>
+          <p style="font-size:0.88rem;color:var(--charcoal-light);">Attachment awareness gives couples a shared vocabulary for the moments that used to end in silence, distance, or arguments.</p>
+        </div>
+        <div class="card card--lavender">
+          <div style="font-size:1.6rem;margin-bottom:10px;">🌱</div>
+          <h4>Build Real Security</h4>
+          <p style="font-size:0.88rem;color:var(--charcoal-light);">No matter your starting style, every person can move toward greater security. This is not fixed. You are not stuck. Growth is genuinely possible.</p>
+        </div>
       </div>
 
       <div class="section-divider"><span>How it works</span></div>
@@ -574,6 +756,8 @@ function buildWelcome() {
             'You want to stop repeating old patterns',
             'You want a relationship that feels genuinely safe',
             'You are exploring your own patterns, with or without a partner right now',
+            'You have ever wondered "why do we keep having the same fight?"',
+            'You want practical tools, not just insight',
           ].map(t => `<li style="display:flex;gap:8px;align-items:flex-start;font-size:0.93rem;"><span style="color:var(--rose-dark);">✦</span>${t}</li>`).join('')}
         </ul>
       </div>
@@ -582,7 +766,7 @@ function buildWelcome() {
         ${[
           ['🔒', 'Private & Safe', 'Everything stays on your device. No account needed, no data shared.'],
           ['💾', 'Always Saved', 'Your progress is saved automatically. Come back any time.'],
-          ['🖨️', 'Printable', 'Print your results, safety guide, and journal prompts.'],
+          ['📄', 'Save as PDF', 'Print your results or save as a PDF to keep forever.'],
           ['💑', 'Built for Two', 'Designed for couples and also beautifully useful for solo exploration.'],
         ].map(([icon, title, text]) => `
           <div class="feature-card">
@@ -593,9 +777,22 @@ function buildWelcome() {
         `).join('')}
       </div>
 
-      <div style="text-align:center;padding:48px 0 0;">
-        <button class="btn btn-primary btn-lg" onclick="navigate('setup')">Let's Begin</button>
-        <p style="margin-top:16px;font-size:0.82rem;color:var(--charcoal-light);">Takes about 10 minutes. You can pause and return any time.</p>
+      <div style="text-align:center;padding:48px 0 0;display:flex;gap:12px;justify-content:center;flex-wrap:wrap;">
+        <button class="btn btn-primary btn-lg" onclick="navigate('setup')">${hasProgress ? 'Continue' : "Let's Begin"} &rarr;</button>
+        ${hasProgress ? `<button class="btn btn-ghost" onclick="resetAll()">Start Fresh</button>` : ''}
+      </div>
+      ${!hasProgress ? `<p style="text-align:center;margin-top:16px;font-size:0.82rem;color:var(--charcoal-light);">Takes about 10 minutes. You can pause and return any time.</p>` : ''}
+
+      <!-- PWA Install Banner (shown only when installable) -->
+      <div id="pwa-install-btn" style="display:none;margin-top:24px;justify-content:center;">
+        <div class="callout callout--lavender" style="max-width:480px;display:flex;align-items:center;gap:16px;padding:16px 20px;">
+          <span style="font-size:1.4rem;">&#128241;</span>
+          <div style="flex:1;">
+            <div style="font-weight:600;font-size:0.9rem;margin-bottom:2px;">Install Connected on your device</div>
+            <p style="font-size:0.8rem;color:var(--charcoal-light);margin:0;">Add to your home screen for easy access, even offline.</p>
+          </div>
+          <button class="btn btn-primary btn-sm" style="white-space:nowrap;">Add to Home Screen</button>
+        </div>
       </div>
     </div>
   </div>
@@ -800,15 +997,23 @@ function buildResults() {
 
       ${buildStyleCard(activePerson, activePartnerName)}
 
-      <div style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap;margin-top:40px;">
-        ${showP2 && p1done && !p2done ? `
-          <button class="btn btn-rose" onclick="startQuiz(2)">
-            ${p2.name ? `Start ${p2.name}'s Quiz` : 'Start Partner\'s Quiz'} &rarr;
-          </button>
-        ` : ''}
+      ${!showP2 || !p2done ? `
+        <div class="callout callout--rose" style="margin-top:32px;text-align:center;">
+          <p class="callout__title"><span class="callout__icon">💑</span>Ready to add a partner?</p>
+          <p style="font-size:0.92rem;margin-bottom:16px;color:var(--charcoal);">You can explore your styles together, see your pairing analysis, and get personalized date ideas and safety guides for both of you.</p>
+          <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;">
+            ${!showP2 ? `<button class="btn btn-rose" onclick="addPartnerPrompt()">+ Add a Partner</button>` : ''}
+            ${showP2 && !p2done ? `<button class="btn btn-rose" onclick="startQuiz(2)">${p2.name ? 'Start ' + p2.name + "'s Quiz" : 'Start Partner\'s Quiz'} &rarr;</button>` : ''}
+          </div>
+        </div>
+      ` : ''}
+
+      <div style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap;margin-top:32px;">
         ${p1done && (!showP2 || p2done) ? `
           <button class="btn btn-primary" onclick="navigate('connection')">See Your Connection &rarr;</button>
         ` : ''}
+        <button class="btn btn-ghost" onclick="navigate('dashboard')">Dashboard</button>
+        <button class="btn btn-ghost" onclick="navigate('welcome')">Back to Beginning</button>
         <button class="btn btn-print btn-sm no-print" onclick="window.print()">🖨️ Print Results</button>
       </div>
     </div>
@@ -985,6 +1190,8 @@ function buildConnection() {
       <div style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap;margin-top:40px;">
         <button class="btn btn-primary" onclick="navigate('dates')">Date Ideas for You &rarr;</button>
         <button class="btn btn-secondary" onclick="navigate('safety')">Your Safety Guide &rarr;</button>
+        <button class="btn btn-ghost" onclick="navigate('dashboard')">Dashboard</button>
+        <button class="btn btn-ghost" onclick="navigate('welcome')">← Beginning</button>
       </div>
     </div>
   </div>
@@ -1064,7 +1271,9 @@ function buildDates() {
 
       <div style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap;margin-top:40px;">
         <button class="btn btn-primary" onclick="navigate('safety')">Your Safety Guide &rarr;</button>
-        <button class="btn btn-ghost" onclick="navigate('connection')">&larr; Back to Connection</button>
+        <button class="btn btn-ghost" onclick="navigate('connection')">&larr; Connection</button>
+        <button class="btn btn-ghost" onclick="navigate('dashboard')">Dashboard</button>
+        <button class="btn btn-ghost" onclick="navigate('welcome')">← Beginning</button>
       </div>
     </div>
   </div>
@@ -1161,6 +1370,9 @@ function buildSafety() {
 
       <div style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap;margin-top:40px;">
         <button class="btn btn-primary" onclick="navigate('journal')">Journaling Exercises &rarr;</button>
+        <button class="btn btn-ghost" onclick="navigate('dates')">&larr; Date Ideas</button>
+        <button class="btn btn-ghost" onclick="navigate('dashboard')">Dashboard</button>
+        <button class="btn btn-ghost" onclick="navigate('welcome')">← Beginning</button>
         <button class="btn btn-print btn-sm no-print" onclick="window.print()">🖨️ Print Safety Guide</button>
       </div>
     </div>
@@ -1226,6 +1438,8 @@ function buildJournal() {
 
       <div style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap;margin-top:40px;">
         <button class="btn btn-primary" onclick="navigate('dashboard')">Your Dashboard &rarr;</button>
+        <button class="btn btn-ghost" onclick="navigate('safety')">&larr; Safety Guide</button>
+        <button class="btn btn-ghost" onclick="navigate('welcome')">← Beginning</button>
       </div>
     </div>
   </div>
@@ -1321,11 +1535,20 @@ function buildDashboard() {
       <div class="card mt-8" style="text-align:center;border:1px dashed rgba(155,107,138,0.3);">
         <h4 style="margin-bottom:12px;">Life changes, and so do we.</h4>
         <p style="color:var(--charcoal-light);margin-bottom:20px;font-size:0.9rem;">You can retake the quiz any time to see how you've grown. Your previous results are always saved.</p>
-        <button class="btn btn-secondary btn-sm" onclick="resetQuiz()">Retake the Quiz</button>
+        <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap;">
+          <button class="btn btn-secondary btn-sm" onclick="resetQuiz()">Retake the Quiz</button>
+          ${!STATE.usePartner2 || !STATE.partner2.name ? `<button class="btn btn-rose btn-sm" onclick="addPartnerPrompt()">+ Add a Partner</button>` : ''}
+          <button class="btn btn-ghost btn-sm" onclick="navigate('welcome')">Back to Beginning</button>
+        </div>
       </div>
 
-      <div style="text-align:center;margin-top:32px;">
-        <button class="btn btn-primary no-print" onclick="window.print()">🖨️ Print Your Complete Guide</button>
+      <div class="card mt-6" style="background:linear-gradient(135deg,rgba(139,175,141,0.08),rgba(184,169,201,0.08));border:1px solid rgba(139,175,141,0.2);text-align:center;">
+        <h4 style="margin-bottom:8px;">🖨️ Save or Print Your Complete Guide</h4>
+        <p style="color:var(--charcoal-light);font-size:0.88rem;margin-bottom:16px;">This will open a print-friendly version of everything: your quiz answers, both style cards, your pairing analysis, all date ideas, your safety guide, and your journal entries.</p>
+        <div style="background:rgba(155,107,138,0.08);border-radius:var(--radius-sm);padding:12px 16px;margin-bottom:16px;font-size:0.85rem;color:var(--charcoal);">
+          <strong>Tip: Save as PDF</strong> -- In the print dialog, choose <em>"Save as PDF"</em> (instead of a printer) to create a beautiful digital copy you can keep forever. On iPhone, tap the Share button and choose "Print," then pinch outward on the preview to save as PDF.
+        </div>
+        <button class="btn btn-primary no-print" onclick="printCompleteGuide()">🖨️ Print Complete Guide</button>
       </div>
 
       <div style="text-align:center;margin-top:48px;padding-bottom:32px;">
@@ -1343,32 +1566,21 @@ function updateName(which, value) {
   if (which === 1) { STATE.partner1.name = value }
   else { STATE.partner2.name = value }
   saveState(STATE)
-  // Update nav without full re-render
-  document.querySelector('.app-nav__inner').innerHTML = document.querySelector('.app-nav__inner').innerHTML
-  renderNav()
+  // Update just the nav avatars without losing input focus
+  const navEl = document.querySelector('.app-nav__inner')
+  if (navEl) {
+    const p1Initial = (STATE.partner1.name || 'You').charAt(0).toUpperCase()
+    // Update avatar dots text if visible
+    document.querySelectorAll('.avatar-dot').forEach(dot => {
+      if (which === 1 && dot.dataset.partner === '1') dot.textContent = p1Initial
+      if (which === 2 && dot.dataset.partner === '2') dot.textContent = (STATE.partner2.name || 'P').charAt(0).toUpperCase()
+    })
+  }
 }
 
 function renderNav() {
-  const nav = document.querySelector('.app-nav__inner')
-  if (!nav) return
-  const p1Initial = (n1()).charAt(0).toUpperCase()
-  const p2Initial = (n2()).charAt(0).toUpperCase()
-  const userPart = STATE.partner1.name
-    ? `<div class="app-nav__user">
-        <span class="avatar-dot" style="background:${STATE.partner1.color}">${p1Initial}</span>
-        ${STATE.usePartner2 && STATE.partner2.name ? `<span class="avatar-dot" style="background:${STATE.partner2.color}">${p2Initial}</span>` : ''}
-       </div>`
-    : ''
-  nav.innerHTML = `
-    <span class="app-nav__logo">Connected</span>
-    <ul class="app-nav__links">
-      ${NAV_ITEMS.map(item => `
-        <li><a href="#" onclick="navigate('${item.id}');return false;"
-           class="${STATE.currentSection === item.id ? 'active' : ''}">${item.label}</a></li>
-      `).join('')}
-    </ul>
-    ${userPart}
-  `
+  // Full re-render handles nav update
+  render()
 }
 
 function setColor(which, value) {
@@ -1515,6 +1727,195 @@ function resetQuiz() {
   }
 }
 
+function resetAll() {
+  if (confirm('Start completely fresh? This will clear all your progress, names, and quiz answers. Your browser data will be reset.')) {
+    localStorage.removeItem(STORAGE_KEY)
+    STATE = defaultState()
+    navigate('welcome')
+  }
+}
+
+function addPartnerPrompt() {
+  // Enable partner mode and send to setup
+  STATE.usePartner2 = true
+  saveState(STATE)
+  navigate('setup')
+}
+
+// ---- Print Complete Guide ----
+function printCompleteGuide() {
+  const p1 = STATE.partner1
+  const p2 = STATE.partner2
+  const style2Key = (STATE.usePartner2 && p2.style) ? p2.style : p1.style
+  const pairingKey = p1.style ? getPairingKey(p1.style, style2Key) : null
+  const pairing = pairingKey ? PAIRINGS[pairingKey] : null
+  const name2 = STATE.usePartner2 ? n2() : 'your partner'
+
+  const printWindow = window.open('', '_blank')
+  if (!printWindow) { window.print(); return }
+
+  const answerRows = (person, label) => {
+    if (!person.answers || !Object.keys(person.answers).length) return ''
+    return `<div class="print-section"><h3>${label}'s Quiz Answers</h3>` +
+      QUESTIONS.map(q => {
+        const val = person.answers[q.id] || 0
+        return `<div class="qa-row"><span class="qa-q">${q.text}</span><span class="qa-a">${val} -- ${SCALE_LABELS[val] || 'Not answered'}</span></div>`
+      }).join('') + `</div>`
+  }
+
+  const styleSection = (person, partnerName) => {
+    if (!person.style) return ''
+    const s = STYLES[person.style]
+    const name = person.name || 'You'
+    const pct = getPercentages(person.scores || {})
+    return `
+      <div class="print-section">
+        <h2>${name}'s Attachment Style: ${s.icon} ${s.descriptor} (${s.name})</h2>
+        ${s.summary.map(para => `<p>${para.replace('{name}', name)}</p>`).join('')}
+        <h3>Superpowers</h3><p>${s.superpowers.join(', ')}</p>
+        <h3>Growth Edge</h3><p>${s.growthEdge}</p>
+        <h3>What ${name} Needs to Feel Safe</h3>
+        <ul>${s.needs.map(n => `<li>${n}</li>`).join('')}</ul>
+        <h3>Style Breakdown</h3>
+        <p>Secure: ${pct.secure}% | Anxious: ${pct.anxious}% | Avoidant: ${pct.avoidant}% | Disorganized: ${pct.disorganized}%</p>
+        <h3>A Note to ${partnerName}</h3>
+        <p><em>${s.noteToPartner(name, partnerName)}</em></p>
+      </div>
+    `
+  }
+
+  const pairingSection = () => {
+    if (!pairing || !p1.style) return ''
+    return `
+      <div class="print-section">
+        <h2>Your Connection: ${pairing.name}</h2>
+        <p><em>${pairing.tagline}</em></p>
+        <h3>How You Connect</h3><p>${pairing.howYouConnect}</p>
+        <h3>Where You May Struggle</h3><p>${pairing.whereYouStruggle}</p>
+        <h3>How to Build a Bridge</h3>
+        <ul>${pairing.bridgeActions.map(a => `<li>${a}</li>`).join('')}</ul>
+        <h3>Your Shared Practice</h3><p>${pairing.sharedPractice(n1(), name2)}</p>
+        <h3>Your Repair Phrase</h3><p><em>${pairing.repairPhrase(n1(), name2)}</em></p>
+      </div>
+    `
+  }
+
+  const datesSection = () => {
+    if (!pairing) return ''
+    const comfortLabels = { lowkey: 'Low-Key', moderate: 'Moderate', adventure: 'Adventure' }
+    return `
+      <div class="print-section">
+        <h2>Date Ideas for ${n1()}${STATE.usePartner2 && p2.name ? ' & ' + p2.name : ''}</h2>
+        ${pairing.dates.map(d => `
+          <div class="date-print">
+            <strong>${d.emoji} ${d.name}</strong> (${comfortLabels[d.comfort]})<br>
+            ${d.desc}<br>
+            <em>Why this works: ${d.why}</em>
+          </div>
+        `).join('')}
+        ${(STATE.savedDates || []).length > 0 ? `<p><strong>Your favorites:</strong> ${STATE.savedDates.join(', ')}</p>` : ''}
+      </div>
+    `
+  }
+
+  const safetySection = () => {
+    if (!p1.style) return ''
+    const sActions = SAFETY_ACTIONS[p1.style].forOther(name2)
+    const s2Actions = (STATE.usePartner2 && p2.style) ? SAFETY_ACTIONS[p2.style].forOther(n1()) : []
+    return `
+      <div class="print-section">
+        <h2>Safety Guide</h2>
+        <h3>For ${n1()} -- How to Help ${name2} Feel Safe</h3>
+        <ul>${sActions.map(a => `<li>${a}</li>`).join('')}</ul>
+        ${s2Actions.length ? `<h3>For ${name2} -- How to Help ${n1()} Feel Safe</h3><ul>${s2Actions.map(a => `<li>${a}</li>`).join('')}</ul>` : ''}
+        ${pairing ? `
+          <h3>Weekly Practice</h3><p>${pairing.sharedPractice(n1(), name2)}</p>
+          <h3>Repair Phrase</h3><p><em>${pairing.repairPhrase(n1(), name2)}</em></p>
+          <h3>Grounding Practice</h3><p>When one of you feels dysregulated: Place one hand on your heart and one on your belly. Take three slow breaths together. Then one person says: "I'm here with you. We have time."</p>
+        ` : ''}
+      </div>
+    `
+  }
+
+  const journalSection = () => {
+    const entries = STATE.journalEntries || {}
+    const written = JOURNAL_PROMPTS.filter(p => entries[p.id] && entries[p.id].trim())
+    if (!written.length) return ''
+    const catLabels = { self: 'Know Yourself', partner: 'Know Each Other', together: 'Grow Together', repair: 'Repair & Reset' }
+    return `
+      <div class="print-section">
+        <h2>Journal Entries</h2>
+        ${written.map(p => `
+          <div class="journal-print">
+            <p class="prompt-label">${catLabels[p.category]}</p>
+            <p class="prompt-q"><em>${p.prompt}</em></p>
+            <p class="prompt-a">${entries[p.id].replace(/\n/g, '<br>')}</p>
+          </div>
+        `).join('')}
+      </div>
+    `
+  }
+
+  const html = `<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Connected -- Complete Attachment Guide for ${n1()}${STATE.usePartner2 && p2.name ? ' & ' + p2.name : ''}</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=DM+Sans:wght@300;400;500;600&display=swap');
+      body { font-family: 'DM Sans', sans-serif; color: #3D3D3D; max-width: 800px; margin: 0 auto; padding: 32px 24px; background: white; line-height: 1.7; }
+      h1, h2, h3 { font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 500; }
+      h1 { font-size: 2.2rem; color: #9B6B8A; text-align: center; margin-bottom: 4px; }
+      h2 { font-size: 1.6rem; color: #3D3D3D; margin: 28px 0 10px; border-bottom: 1px solid #e8e0d8; padding-bottom: 6px; }
+      h3 { font-size: 1.15rem; color: #6A9370; margin: 18px 0 6px; }
+      p { margin: 0 0 10px; font-size: 0.95rem; }
+      ul { padding-left: 20px; margin: 8px 0; }
+      li { margin-bottom: 6px; font-size: 0.93rem; }
+      .cover { text-align: center; padding: 40px 0 32px; border-bottom: 2px solid #8BAF8D; margin-bottom: 32px; }
+      .tagline { font-style: italic; color: #6B6B6B; font-size: 1.05rem; }
+      .print-section { margin-bottom: 40px; page-break-inside: avoid; }
+      .qa-row { display: flex; gap: 16px; padding: 8px 0; border-bottom: 1px solid #f0ebe3; font-size: 0.88rem; }
+      .qa-q { flex: 1; color: #3D3D3D; }
+      .qa-a { width: 200px; color: #6A9370; font-weight: 500; flex-shrink: 0; }
+      .date-print { padding: 12px 0; border-bottom: 1px solid #f0ebe3; font-size: 0.9rem; }
+      .journal-print { padding: 14px 0; border-bottom: 1px solid #f0ebe3; }
+      .prompt-label { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em; color: #8BAF8D; font-weight: 600; margin-bottom: 4px; }
+      .prompt-q { font-style: italic; color: #3D3D3D; font-size: 1rem; margin-bottom: 8px; }
+      .prompt-a { background: #FAF7F2; padding: 10px 14px; border-radius: 6px; font-size: 0.9rem; }
+      .pdf-tip { background: #f5f0f9; border: 1px solid #B8A9C9; border-radius: 8px; padding: 14px 18px; margin: 0 0 32px; font-size: 0.87rem; }
+      @media print { .pdf-tip { display: none; } }
+    </style>
+  </head>
+  <body>
+    <div class="cover">
+      <h1>Connected</h1>
+      <p class="tagline">An Attachment Style Guide for ${n1()}${STATE.usePartner2 && p2.name ? ' & ' + p2.name : ''}</p>
+      <p style="font-size:0.82rem;color:#9B7D30;margin-top:8px;">Generated ${new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</p>
+    </div>
+    <div class="pdf-tip">
+      <strong>Save as PDF:</strong> In the print dialog, choose "Save as PDF" to create a digital copy. On iPhone: tap Share, then "Print," then pinch outward on the preview.
+    </div>
+    ${answerRows(p1, p1.name || 'Your')}
+    ${STATE.usePartner2 && p2.name ? answerRows(p2, p2.name) : ''}
+    ${styleSection(p1, name2)}
+    ${STATE.usePartner2 && p2.style ? styleSection(p2, n1()) : ''}
+    ${pairingSection()}
+    ${datesSection()}
+    ${safetySection()}
+    ${journalSection()}
+    <div style="text-align:center;padding:40px 0 0;border-top:1px solid #e8e0d8;margin-top:40px;">
+      <p style="font-family:Georgia,serif;font-style:italic;font-size:1.2rem;color:#9B6B8A;">You are doing something brave.</p>
+      <p style="font-size:0.85rem;color:#6B6B6B;">Understanding is where it begins. Keep going.</p>
+    </div>
+  </body>
+  </html>`
+
+  printWindow.document.write(html)
+  printWindow.document.close()
+  printWindow.focus()
+  setTimeout(() => printWindow.print(), 500)
+}
+
 // ---- Expose globals ----
 window.navigate = navigate
 window.updateName = updateName
@@ -1532,6 +1933,11 @@ window.saveJournalEntry = saveJournalEntry
 window.clearJournalEntry = clearJournalEntry
 window.printPrompt = printPrompt
 window.resetQuiz = resetQuiz
+window.resetAll = resetAll
+window.addPartnerPrompt = addPartnerPrompt
+window.printCompleteGuide = printCompleteGuide
+window.toggleAvatarMenu = toggleAvatarMenu
+window.closeAvatarMenu = closeAvatarMenu
 
 // ---- Init ----
 document.addEventListener('DOMContentLoaded', render)
